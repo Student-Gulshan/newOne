@@ -54,14 +54,12 @@ function Home() {
                   <FaNodeJs className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                 </div>
               </div>
-              {/* <a href="/Ak.pdf" download className='inline-block bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-700'>
-                Download CV
-              </a> */}
+  
              </div>
    </div>
    {/* right */}
    <div className='md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1'>
-   <img src="/myphoto.jpg" className='rounded-full  md:w-[450px] md:h-[450px] shadow-lg ' alt="myphoto" />
+   <img src="mypic.jpg" className='rounded-full  md:w-[450px] md:h-[450px] shadow-lg ' alt="myphoto" />
    </div>
    </div>
   </div>

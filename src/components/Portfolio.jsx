@@ -1,57 +1,26 @@
 import React from "react";
-import todo from"../../public/todo.jpeg";
-import tictac from"../../public/tictac.jpeg";
-import guess from"../../public/guess.jpeg";
-import bmi from"../../public/bmi.jpeg";
-import vikara from "../../public/vikara.png"
+import pokemon from "../../public/pokemon.jpg"
+import clock from "../../public/clock.jpg"
 
 function PortFolio() {
   const cardItem = [
     {
-      id: 2,
-      logo: vikara,
-      name: "Vikara", 
+      id: 1,
+      logo: pokemon,
+      name: "Pokemon Cards", 
       paragraph:
-        "Vikara Web app with HTML CSS and Javascript",
-      demoLink: " https://student-gulshan.github.io/Student-Gulshan/", 
-      // sourceCodeLink: "https://github.com/Student-Gulshan/Student-Gulshan", 
+        "Pokemon Cards web App using React and CSS",
+      demoLink: "http://127.0.0.1:5173/PokemonCards/", 
     },
-    // {
-    //   id: 3,
-    //   logo: todo,
-    //   name: "Todo App",
-    //   paragraph:
-    //     "Todo App with Reactjs and it Store Todos in Local Storage",
-    //   demoLink: "https://todo-app-bice-three-35.vercel.app/", 
-    //   sourceCodeLink: "https://github.com/Abhishek6546/TodoApp", 
-    // },
-    // {
-    //   id: 4,
-    //   logo: tictac,
-    //   name: "TicTacToe",
-    //   paragraph:
-    //     "TicTacToe Game with HTML CSS and Javascript",
-    //   demoLink: "https://tictactoebyabhishek123.netlify.app/",
-    //   sourceCodeLink: "https://github.com/Abhishek6546/TicTacToe", 
-    // },
-    // {
-    //   id: 5,
-    //   logo: guess ,
-    //   name: "Guess a Number",
-    //   paragraph:
-    //     "A guess a number game involves predicting a hidden number within a specified range.",
-    //   demoLink: "https://guessnumbyabhishek.netlify.app/", 
-    //   sourceCodeLink: "https://github.com/Abhishek6546/guessNumber", 
-    // },
-    // {
-    //   id: 6,
-    //   logo: bmi,
-    //   name: "BMI Calculator",
-    //   paragraph:
-    //     "A BMI calculator computes Body Mass Index using a person's weight and height.",
-    //   demoLink: "https://abhishekbmi.netlify.app/", 
-    //   sourceCodeLink: "https://github.com/Abhishek6546/BMI", 
-    // },
+    {
+      id: 2,
+      logo: clock,
+      name: "Digital Clock", 
+      paragraph:
+        "Digital clock using HTML, CSS and JavaScript",
+      demoLink: "https://transcendent-puppy-c1898a.netlify.app", 
+    },
+   
   ];
 
   return (
